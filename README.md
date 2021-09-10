@@ -2,4 +2,6 @@
 
 A simple Poll App made with Python Django.
 
-**Note:** An `.env` file is required to store the DB credentials. See `myapp/settings.py` for more info.
+**Note:** Secrets and credentials are stored in an `.env` file, and excluded from version control.
+
+To create your own `.env` file, fill-out `.env.example` and rename it `.env`.
